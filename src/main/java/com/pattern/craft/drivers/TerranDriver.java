@@ -1,6 +1,7 @@
-package drivers;
+package com.pattern.craft.drivers;
 
-import interfaces.IDriver;
+
+import com.pattern.craft.interfaces.IDriver;
 
 public class TerranDriver implements IDriver {
     @Override

@@ -1,4 +1,6 @@
-import states.Tank;
+
+
+import com.pattern.craft.states.Tank;
 
 import java.util.Scanner;
 

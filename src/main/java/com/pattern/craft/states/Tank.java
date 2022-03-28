@@ -1,12 +1,10 @@
-package states;
-
-import drivers.TerranDriver;
+package com.pattern.craft.states;
+import com.pattern.craft.drivers.TerranDriver;
 
 public class Tank {
     private State state;
 
     public Tank() {
-
         this.state = new TankState(this,new TerranDriver());
     }
 

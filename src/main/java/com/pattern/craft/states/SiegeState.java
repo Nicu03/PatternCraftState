@@ -1,6 +1,6 @@
-package states;
+package com.pattern.craft.states;
 
-import interfaces.IDriver;
+import com.pattern.craft.interfaces.IDriver;
 
 public class SiegeState extends State {
     private static final int damage = 20;

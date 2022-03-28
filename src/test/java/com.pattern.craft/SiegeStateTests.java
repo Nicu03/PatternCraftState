@@ -1,5 +1,9 @@
-package states;
+package com.pattern.craft;
 
+import com.pattern.craft.states.SiegeState;
+import com.pattern.craft.states.State;
+import com.pattern.craft.states.Tank;
+import com.pattern.craft.states.TankState;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -30,7 +34,7 @@ public class SiegeStateTests {
     @Test
     public void testSiegeState(){
         State state = tank.getState();
-        assertEquals("Incorrect state for Siege tank",SiegeState.class,state.getClass());
+        assertEquals("Incorrect state for Siege tank", SiegeState.class,state.getClass());
     }
 
     @Test

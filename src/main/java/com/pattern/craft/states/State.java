@@ -1,8 +1,9 @@
-package states;
+package com.pattern.craft.states;
 
-import drivers.TerranDriver;
-import drivers.ZergDriver;
-import interfaces.IDriver;
+
+import com.pattern.craft.drivers.TerranDriver;
+import com.pattern.craft.drivers.ZergDriver;
+import com.pattern.craft.interfaces.IDriver;
 
 public abstract class State {
     protected Tank tank;
