@@ -28,7 +28,7 @@ public class SiegeStateTests {
 
     @Test
     public void testSiegeStateCanMove(){
-        assertFalse("Siege tank CAN move",tank.isCanMove());
+        assertFalse("Siege tank CAN move",tank.canMove());
     }
 
     @Test

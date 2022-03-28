@@ -17,8 +17,8 @@ public class Tank {
         return state.getDamage();
     }
 
-    public boolean isCanMove() {
-        return state.isCanMove();
+    public boolean canMove() {
+        return state.canMove();
     }
 
     public State getState() {
@@ -34,7 +34,7 @@ public class Tank {
     }
 
     public String move(){
-        if (state.isCanMove()){
+        if (state.canMove()){
             return "I moved to the new destination";
         }else{
             return "I can't move";

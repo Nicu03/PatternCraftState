@@ -32,7 +32,7 @@ public abstract class State {
         return damage;
     }
 
-    public boolean isCanMove() {
+    public boolean canMove() {
         return canMove;
     }
 

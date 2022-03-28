@@ -25,7 +25,7 @@ public class TankStateTests {
 
     @Test
     public void testTankStateCanMove(){
-        assertTrue("Normal tank can't move",tank.isCanMove());
+        assertTrue("Normal tank can't move",tank.canMove());
     }
 
     @Test
