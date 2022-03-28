@@ -7,9 +7,12 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default  
+
+
 
 steps:
+- script: echo hello world
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
