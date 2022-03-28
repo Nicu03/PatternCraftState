@@ -37,7 +37,7 @@ public class Tank {
 
     public String move(){
         if (state.isCanMove()){
-            return "I move to the new destination";
+            return "I moved to the new destination";
         }else{
             return "I can't move";
         }

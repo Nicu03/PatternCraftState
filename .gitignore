@@ -12,3 +12,5 @@
 /.idea/vcs.xml
 /target/classes/drivers/ZergDriver.class
 /PatternCraftState.iml
+/target/test-classes/states/SiegeStateTests.class
+/target/test-classes/states/TankStateTests.class
