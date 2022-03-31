@@ -25,7 +25,7 @@ stages:
         publishJUnitResults: true
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
         goals: 'package'
-- stage: Test Stage
+- stage: Test_Stage
   displayName: Test 
   jobs:
   - job: Print
