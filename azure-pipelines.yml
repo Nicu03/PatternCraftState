@@ -31,7 +31,7 @@ stages:
         Contents: |
           *.jar
           surefire-reports\*.xml
-        TargetFolder: C:\Users\nicu_\Desktop\Test\$(Build.BuildNumber)
+        TargetFolder: C:\agents\Builds\$(Build.BuildNumber)
 
 
 
