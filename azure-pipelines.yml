@@ -25,4 +25,10 @@ stages:
         publishJUnitResults: true
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
         goals: 'package'
+- stage: Test Stage
+  displayName: Test 
+  jobs:
+  - job: Print
+    steps:
+      - script: echo hello world
 
