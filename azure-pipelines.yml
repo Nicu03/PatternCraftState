@@ -27,10 +27,11 @@ stages:
         goals: 'package'
     - task: CopyFiles@2
       inputs:
+        SourceFolder: target
         Contents: |
-          target\*.jar
-          target\surefire-reports\*.xml
-        TargetFolder: C:\Users\nicu_\Desktop\Test
+          *.jar
+          surefire-reports\*.xml
+        TargetFolder: C:\Users\nicu_\Desktop\Test\$(Build.BuildNumber)
 
 
 
