@@ -25,17 +25,12 @@ stages:
         publishJUnitResults: true
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
         goals: 'package'
-- stage: Deploy
-  displayName: Deploy 
-  jobs:
-  - job: MainJob
-    steps:
-      - task: CopyFiles@2
-        inputs:
-          Contents: |
-            target\*.jar
-            target\surefire-reports\*.xml
-          TargetFolder: C:\Users\nicu_\Desktop\Test
+    - task: CopyFiles@2
+      inputs:
+        Contents: |
+          target\*.jar
+          target\surefire-reports\*.xml
+        TargetFolder: C:\Users\nicu_\Desktop\Test
 
 
 
